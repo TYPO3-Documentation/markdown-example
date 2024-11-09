@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guides xmlns="https://www.phpdoc.org/guides" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.phpdoc.org/guides ../vendor/phpdocumentor/guides-cli/resources/schema/guides.xsd"
+        links-are-relative="true"
+        default-code-language="php"
+        input-format="md"
+        index-name="Index"
+        automatic-menu="true"
+>
+    <project
+            title="Markdown Documentation Example"
+            version="local"
+    />
+    <extension
+            class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
+            project-home="https://github.com/TYPO3-Documentation/markdown-example"
+            project-repository="https://github.com/TYPO3-Documentation/markdown-example"
+            project-issues="https://github.com/TYPO3-Documentation/markdown-example/issues"
+            edit-on-github-branch="main"
+            edit-on-github="TYPO3-Documentation/markdown-example"
+            interlink-shortcode="t3docs/markdown-example"
+            typo3-core-preferred="stable"
+    />
+</guides>
